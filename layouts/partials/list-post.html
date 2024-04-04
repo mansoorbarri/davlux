@@ -1,0 +1,18 @@
+<div class="flex flex-col gap-4">
+   {{ range .Paginator.Pages }}
+   <article class="flex justify-between">
+       {{ if .Permalink }}
+           <a href="{{ .Permalink }}" target="_self" class="underline decoration-neutral-600 underline-offset-4 transition-colors focus:decoration-neutral-500 focus:outline-offset-6 hover:decoration-neutral-500">
+              <!--[--> <span>{{ .Params.title }}</span> <!--]-->
+           </a>
+       {{ end }}
+       <span>{{ .Params.description }}</span> <span>{{ .Date.Format "January 2, 2006" }}</span> 
+   </article>  
+   {{ end }}
+   <span>
+      <a href="{{ "blogs" | absURL }}" target="_self" class="underline decoration-neutral-600 underline-offset-4 transition-colors focus:decoration-neutral-500 focus:outline-offset-6 hover:decoration-neutral-500">
+         <!--[-->All posts →<!--]-->
+      </a>
+   </span>
+</div>
+{{ template "_internal/pagination.html" . }}

@@ -1,0 +1,7 @@
+{{- $cssMain := resources.Get "css/main.css" | minify -}}
+{{- $ScssMain := $cssMain | resources.Fingerprint "sha512" -}}    
+<link rel="stylesheet" type="text/css" href="{{ $ScssMain.Permalink }}" integrity="{{ $ScssMain.Data.Integrity }}">
+
+{{- $cssAstro := resources.Get "css/astro.css" | minify -}}
+{{- $ScssAstro := $cssAstro | resources.Fingerprint "sha512" -}}    
+<link rel="stylesheet" type="text/css" href="{{ $ScssAstro.Permalink }}" integrity="{{ $ScssAstro.Data.Integrity }}"> 
