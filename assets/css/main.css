@@ -10,3 +10,8 @@
     font-display:swap
 }
   
+
+.highlight pre {
+    padding: 15px;
+    white-space: pre-wrap;
+}
