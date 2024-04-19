@@ -3,6 +3,7 @@ title: "Example post"
 date: 2024-02-19
 description: "Initial setup for Davlux." 
 type: posts
+url: "/example-post"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Lobortis feugiat vivamus at augue eget arcu. Vitae suscipit tellus mauris a. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Et ultrices neque ornare aenean euismod elementum. At tellus at urna condimentum mattis pellentesque id nibh tortor. Sem integer vitae justo eget. Nulla facilisi nullam vehicula ipsum. Leo a diam sollicitudin tempor id. Turpis egestas sed tempus urna et pharetra pharetra. Odio tempor orci dapibus ultrices in iaculis nunc sed. Aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod. Bibendum est ultricies integer quis auctor elit sed vulputate mi. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Libero justo laoreet sit amet cursus. Aenean euismod elementum nisi quis eleifend quam adipiscing. Lorem dolor sed viverra ipsum nunc aliquet.
