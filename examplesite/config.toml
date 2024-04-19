@@ -1,4 +1,4 @@
-baseURL = "davlux.mansoorbarri.com"
+baseURL = "https://davlux.mansoorbarri.com"
 languageCode = 'en-us'
 title = "Davlux"
 theme = "davlux"
