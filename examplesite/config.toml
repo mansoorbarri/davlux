@@ -1,6 +1,7 @@
 baseURL = "davlux.mansoorbarri.com"
 languageCode = 'en-us'
 title = "Davlux"
+theme = "davlux"
 
 [menu]
   [[menu.main]]
