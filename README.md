@@ -1,4 +1,4 @@
-## Coming Soon
+## Davlux
 
 A minimal Hugo theme.
 

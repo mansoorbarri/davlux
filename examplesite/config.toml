@@ -1,6 +1,23 @@
-baseURL = "davlux.mansoorbarri.com"
+baseURL = "https://davlux.mansoorbarri.com"
 languageCode = 'en-us'
 title = "Davlux"
+theme = "davlux"
+
+[menu]
+  [[menu.main]]
+    name = "blogs"
+    url = "/blogs"
+    weight = 1
+
+  [[menu.main]]
+    name = "tags"
+    url = "/tags"
+    weight = 2
+
+  [[menu.main]]
+    name = "rss"
+    url = "/rss"
+    weight = 3
 
 [params]
     wiki = "likh."
@@ -18,21 +35,6 @@ title = "Davlux"
     {name = "twitter", username = "mansoorbarri"},     
     ]
 
-[menu]
-  [[menu.main]]
-    name = "blogs"
-    url = "/blogs"
-    weight = 1
-
-  [[menu.main]]
-    name = "tags"
-    url = "/tags"
-    weight = 2
-
-  [[menu.main]]
-    name = "rss"
-    url = "/rss"
-    weight = 3
 
 
 

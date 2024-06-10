@@ -723,3 +723,8 @@ video {
   }
 }
   
+
+.highlight pre {
+    padding: 15px;
+    white-space: pre-wrap;
+}
