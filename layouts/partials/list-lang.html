@@ -1,0 +1,10 @@
+<div class="grid grid-cols-2 gap-4 md:grid-cols-3">
+    {{ range . }}
+    <div class="w-20.6666666666666666666666666666666666666666666666667ch flex flex-col">
+        <a href="{{ .url }}" target="_blank" class="underline decoration-neutral-600 underline-offset-4 transition-colors focus:decoration-neutral-500 focus:outline-offset-6 hover:decoration-neutral-500">
+            <span class="font-medium">{{ .name }}</span>
+        </a>
+        <span class="pt-3">{{ .description }}</span>
+    </div>
+    {{ end }}
+</div>

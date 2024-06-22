@@ -1,0 +1,33 @@
+baseURL = "https://daraz.pages.dev"
+languageCode = 'en-us'
+title = "Daraz"
+
+[menu]
+  [[menu.main]]
+    name = "18+"
+    url = "https://www.youtube.com/watch?v=ZKPwMY0ztbs"
+    weight = 2
+
+
+[params]
+    footer = "Daraz • 2024"
+    english  = [    
+        {name = "fmovies", url = "https://fmovies24.to/"},       
+        {name = "dopebox", url = "https://dopebox.to"},       
+        {name = "favmovies", url = "https://favmovies.to/"},     
+    ]
+    hindi  = [  
+      {name = "serials", url="https://oldserials.co"},
+      {name = "playdesi", url="https://playdesi.tv"},
+      {name = "fmovies", url = "https://fmovies24.to/"},       
+    ]
+    korean  = [    
+        {name = "watchasian", url = "https://watchasian.to/"},            
+    ]
+    anime  = [    
+        {name = "9animetv", url = "https://9animetv.to/"},           
+    ]
+
+
+
+
