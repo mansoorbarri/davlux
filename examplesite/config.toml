@@ -22,7 +22,9 @@ theme = "davlux"
 [params]
     wiki = "likh."
     hero = "a **hugo** theme, made with **Tailwind**."
-    footer = "Davlux • 2024"
+    footer = "Davlux"
+    paginate = 10
+    search = true
     mainSections = ["blogs"]
     projects = [    
         {name = "CS-Hugo", url = "https://github.com/mansoorbarri/coming-soon/", description = "A coming soon landing page made with Hugo"},       
@@ -34,7 +36,3 @@ theme = "davlux"
     {name = "linkedin", username = "in/mansoorbarri"},       
     {name = "twitter", username = "mansoorbarri"},     
     ]
-
-
-
-
