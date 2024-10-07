@@ -1,0 +1,3 @@
+[submodule "examplesite/themes/davlux"]
+	path = examplesite/themes/davlux
+	url = git@github.com:mansoorbarri/davlux.git
